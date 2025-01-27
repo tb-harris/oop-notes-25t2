@@ -25,17 +25,17 @@ public class HelloWorld {
         the person running our program to provide new information that
         changes its behavior (without having to edit the code).
 
+        Run the program with your first and last name as arguments.
+        
         In IntelliJ, you can run a program with arguments by:
         1) With your class file (eg HelloWorld) open, click on the
            ⋮ button (vertical ...) next to the run button at the top right
         2) Click "Run with parameters" or "Edit configuration"
         3) In the "Program Arguments" box, type the arguments separated by spaces
         4) Press "Run", or press "Apply" and then run the program with the green button
-        ...
 
         These parameters are strings. We can add (concatenate)
         strings together with the + operator
-        ...
          */
         System.out.println(args[0]);
         System.out.println(args[1]);
